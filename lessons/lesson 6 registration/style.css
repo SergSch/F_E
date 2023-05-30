@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+body {
+  margin: 10%;
+}
+section {
+  width: 400px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px;
+}
+.text-right {
+  text-align: right;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.button-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.button-action {
+  background: none;
+  border: 1px solid grey;
+  padding: 10px 0;
+  border-radius: 55px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+.button-action.is-yellow {
+  border: none;
+  background: gold;
+}
+p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.text-small {
+  font-size: 12px;
+  color: grey;
+  margin: 20px 0 !important;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid grey;
+  outline: none;
+  caret-color: gold;
+}
+input:focus {
+  border-color: gold;
+}

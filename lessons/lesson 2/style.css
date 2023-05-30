@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+}

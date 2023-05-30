@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block1,
+.block {
+  background-color: green;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.block2 {
+  justify-content: space-between;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  margin: 15px;
+}
+
+.block3 {
+  flex-wrap: wrap;
+}
+
+.item1 {
+  height: 200px;
+  width: calc(33.3% - 20px);
+  background-color: yellow;
+  margin: 10px;
+}
