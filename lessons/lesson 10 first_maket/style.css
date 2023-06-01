@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Oswald', sans-serif; */
+}
+header {
+  background-color: #1abc9c;
+  padding: 15px 0;
+}
+.wrap {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_link {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+}
+.nav_link:not(:last-child) {
+  margin-right: 20px;
+}
+.social_icon:not(:last-child) {
+  margin-right: 20px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 125px; */
+}
+.head img {
+  width: 50%;
+}
+.right {
+  padding: 0 65px;
+}
+.title {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+.right p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 40px;
+}
+.project {
+  background-color: #dcffeb;
+  padding: 125px 0;
+}
+.pr_wrap {
+  width: 90%;
+  margin: auto;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.project_list {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+.proj {
+  width: 33%;
+  aspect-ratio: 1.15/1;
+  background-image: url(./img/project__arena.png);
+  background-size: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.project_text {
+  padding: 30px 19px 12px;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.38);
+}
+.proj:hover .project_text {
+  opacity: 1;
+}
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.project_descr {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+footer {
+  padding: 80px 0;
+}
+footer > .wrap {
+  display: block;
+}
+.wrap > h2 {
+  margin-bottom: 60px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.foot {
+  text-align: center;
+}
+.foot_head {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #999999;
+  margin: 25px 0;
+}
+.kontakt {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
