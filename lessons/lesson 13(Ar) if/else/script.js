@@ -23,11 +23,16 @@
 //   console.log('wait');
 // }
 
-const a = +prompt('Price');
-if (a > 1500) {
-  console.log('Your discount is 20%');
-} else if (a > 1000) {
-  console.log('Your discount is 15%');
-} else {
-  console.log('No discount');
-}
+// const a = +prompt('Price');
+// if (a > 1500) {
+//   console.log('Your discount is 20%');
+// } else if (a > 1000) {
+//   console.log('Your discount is 15%');
+// } else {
+//   console.log('No discount');
+// }
+let num1 = 3;
+num1++;
+let num2 = num1--;
+alert(num1++);
+alert(--num2);
