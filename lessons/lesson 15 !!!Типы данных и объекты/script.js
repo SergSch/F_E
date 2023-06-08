@@ -118,28 +118,53 @@
 // }
 // console.log(newArr);
 
-const users = [
-  {
-    name: 'Yulia',
-    email: 'yulia@mail.ua',
-    age: 15,
-  },
-  {
-    name: 'Serg',
-    email: 'seer@mail.ua',
-    age: 24,
-  },
-  {
-    name: 'Alex',
-    email: 'alex@mail.ua',
-    age: 33,
-  },
-];
+// const users = [
+//   {
+//     name: 'Yulia',
+//     email: 'yulia@mail.ua',
+//     age: 15,
+//   },
+//   {
+//     name: 'Serg',
+//     email: 'seer@mail.ua',
+//     age: 24,
+//   },
+//   {
+//     name: 'Alex',
+//     email: 'alex@mail.ua',
+//     age: 33,
+//   },
+// ];
 
-const newArr = []; //
-for (let i = 0; i < users.length; i++) {
-  if (users[i].age > 18) {
-    newArr.push({ login: users[i].name, age: users[i].age }); // push - метод который добавляет элемент в конец массива
-  }
-}
-console.log(newArr);
+// const newArr = []; //
+// for (let i = 0; i < users.length; i++) {
+//   if (users[i].age > 18) {
+//     newArr.push({ login: users[i].name, age: users[i].age }); // push - метод который добавляет элемент в конец массива
+//   }
+// }
+// console.log(newArr);
+
+// const products = [
+//   {
+//     name: 'Acer',
+//     category: 'laptop',
+//   },
+//   {
+//     name: 'Samsung',
+//     category: 'TV',
+//   },
+//   {
+//     name: 'Iphon 14',
+//     category: 'phone',
+//   },
+//   {
+//     name: 'panasonic',
+//     category: 'TV',
+//   },
+// ];
+
+// for (let i = 0; i < products.length; i++) {
+//   if (products[i].category == 'TV') {
+//     console.log(products[i].name);
+//   }
+// }
