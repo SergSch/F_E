@@ -108,16 +108,16 @@
 // }
 // editNames();
 
-function printName() {
-  let arr = [];
-  for (let i = 0; i < 3; i++) {
-    const name = prompt('Name?');
-    const upperCase = name.toUpperCase();
-    arr.push(upperCase);
-  }
-  console.log(arr);
-}
-printName();
+// function printName() {
+//   let arr = [];
+//   for (let i = 0; i < 3; i++) {
+//     const name = prompt('Name?');
+//     const upperCase = name.toUpperCase();
+//     arr.push(upperCase);
+//   }
+//   console.log(arr);
+// }
+// printName();
 
 // Задача. Создать функцию, которая запрашивает у пользователя 3 имени, с помощью for.
 // Каждое введенное имя перевести в верхний регистр - toUpperCase()
@@ -153,3 +153,19 @@ printName();
 
     4. i = 3; 3 < 3 - false. 
 */
+
+// Задача. Создать функцию, которая запрашивает у пользователя 3 имени, с помощью for.
+// Каждое введенное имя перевести в верхний регистр - toUpperCase()
+// Создать массив, в который положить все имена в верхнем регистре
+// В консоли отобразить итоговый массив
+
+// function names() {
+//   let arr = [];
+//   for (let i = 0; i < 3; i++) {
+//     let a = prompt('Name');
+//     let upperC = a.toUpperCase();
+//     upperC.push(arr);
+//   }
+//   console.log(arr);
+// }
+// names();
