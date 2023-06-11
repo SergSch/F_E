@@ -8,7 +8,7 @@
 // console.log(arr[3][1])
 
 // const counties = ['Germany', 'France', 'UK'];
-// // console.log(counties.length)
+// console.log(counties.length)
 // counties.push('Spain');
 // console.log(counties.length - 1);
 // console.log(counties[counties.length - 1]);
