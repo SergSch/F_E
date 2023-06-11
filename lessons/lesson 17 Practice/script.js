@@ -223,6 +223,17 @@ function expansiveArticle() {
   return;
 }
 expansiveArticle();
+// Знаю, здесь дал маху, нашел вариант только не знаю как вывести итоговую строку
+function biggestPrice() {
+  for (let i = 0; i < articles.length - 1; i++) {
+    if (articles[i].price > articles[1].price) {
+      return articles[i].price;
+    } else {
+      return articles[1].price;
+    }
+  }
+}
+console.log(biggestPrice());
 
 // // Написать функцию, которая принимает два числа в качестве диапазона и возвращает сумму нечетных чисел в указанном диапазоне
 function oddNumbers(first, second) {
