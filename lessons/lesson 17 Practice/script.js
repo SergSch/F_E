@@ -135,9 +135,8 @@ positive();
 function lastNumber() {
   let a = prompt('Number');
   if (a[a.length - 1] == 8) {
-    console.log(a);
+    return a;
   }
-  return;
 }
 lastNumber();
 
@@ -260,10 +259,9 @@ const players = [
 ];
 function comparePlayer() {
   if (players[0].damage > players[1].damage) {
-    console.log(`Ben has more chanses on the victory!`);
+    return `Ben has more chanses on the victory!`;
   } else {
-    console.log(`Sam has more chanses on the victory!`);
+    return `Sam has more chanses on the victory!`;
   }
-  return;
 }
-comparePlayer();
+console.log(comparePlayer());
