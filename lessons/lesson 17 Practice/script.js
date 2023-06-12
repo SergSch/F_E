@@ -192,36 +192,19 @@ const articles = [
   },
   {
     name: 'sony',
-    price: 5000,
+    price: 57000,
   },
   {
     name: 'samsung',
     price: 10000,
   },
 ];
-function expansiveArticle() {
-  if (
-    articles[0].price > articles[1].price ||
-    articles[0].price > articles[2].price
-  ) {
-    console.log(
-      `The most expancive article ${articles[0].name} costs ${articles[0].price} EUR`
-    );
-  } else if (
-    articles[1].price > articles[0].price ||
-    articles[1].price > articles[2].price
-  ) {
-    console.log(
-      `The most expancive article ${articles[1].name} costs ${articles[1].price} EUR`
-    );
-  } else {
-    console.log(
-      `The most expancive article ${articles[2].name} costs ${articles[2].price} EUR`
-    );
-  }
-  return;
-}
-expansiveArticle();
+let res = articles.sort(function (a, b) {
+  if (a['price'] < b['price']) return -1;
+});
+let a = res[res.length - 1];
+console.log(`The most expancive article ${a.name} costs ${a.price} EUR`);
+
 // Знаю, здесь дал маху, нашел вариант только не знаю как вывести итоговую строку
 function biggestPrice() {
   for (let i = 0; i < articles.length - 1; i++) {
