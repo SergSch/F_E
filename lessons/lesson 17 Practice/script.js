@@ -205,18 +205,6 @@ let res = articles.sort(function (a, b) {
 let a = res[res.length - 1];
 console.log(`The most expancive article ${a.name} costs ${a.price} EUR`);
 
-// Знаю, здесь дал маху, нашел вариант только не знаю как вывести итоговую строку
-function biggestPrice() {
-  for (let i = 0; i < articles.length - 1; i++) {
-    if (articles[i].price > articles[1].price) {
-      return articles[i].price;
-    } else {
-      return articles[1].price;
-    }
-  }
-}
-console.log(biggestPrice());
-
 // // Написать функцию, которая принимает два числа в качестве диапазона и возвращает сумму нечетных чисел в указанном диапазоне
 function oddNumbers(first, second) {
   let a = 0;
