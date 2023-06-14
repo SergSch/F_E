@@ -1,0 +1,16 @@
+.text {
+  font-size: 24px;
+  color: green;
+}
+.product {
+  background-color: #11a45f;
+  width: 20%;
+  padding: 30px;
+  margin: 10px;
+}
+h5 {
+  font-size: 28px;
+}
+p {
+  font-size: 20px;
+}
