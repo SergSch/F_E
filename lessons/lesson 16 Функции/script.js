@@ -102,7 +102,8 @@
 //   let arr = [];
 //   for (let i = 0; i < 3; i++) {
 //     let a = prompt('Name?');
-//     arr[a].toUpperCase();
+//     let b = a.toUpperCase();
+//     arr.push(b);
 //   }
 //   console.log(arr);
 // }
