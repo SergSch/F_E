@@ -199,10 +199,21 @@ const articles = [
     price: 10000,
   },
 ];
-let res = articles.sort(function (a, b) {
-  if (a['price'] < b['price']) return -1;
-});
-let a = res[res.length - 1];
+// let res = articles.sort(function (a, b) {
+//   if (a['price'] < b['price']) return -1;
+// });
+// let a = res[res.length - 1];
+function expensiveProd(arr) {
+  let expencive = arr[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].price > expencive.price) {
+      expencive = arr[i];
+    }
+  }
+  return expencive;
+}
+let a = expensiveProd(articles);
+
 console.log(`The most expancive article ${a.name} costs ${a.price} EUR`);
 
 // // Написать функцию, которая принимает два числа в качестве диапазона и возвращает сумму нечетных чисел в указанном диапазоне
