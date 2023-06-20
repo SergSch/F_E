@@ -75,31 +75,54 @@ btn.addEventListener('click', function () {
 //   document.body.style.backgroundColor = 'yellow';
 // });
 
-// ДЗ. При нажатии на каждую из кнопок менять цвет фона body на соответвующий
+// ДЗ. При нажатии на каждую из кнопок менять цвет фона body на соответвующий-------------------------------
 //         При нажатии на кнопку img-btn менять фон body на картинку.
 
 //         Обращаться к кнопкам не по отдельно а ко всем одновременно
 //             querySelectorAll()
+const buttons = document.querySelectorAll('button');
+// for (let i = 0; i < buttons.length; i++) {
+//   buttons[i].addEventListener('click', function () {
+//     if (buttons[i].id == 'img') {
+//       document.body.style.background = 'url(./img.jpg)';
+//     } else {
+//       const color = buttons[i].id;
+//       document.body.style.background = color;
+//     }
+//   });
+// }
+// ------------------------------------------------------------------------------------------------------
+// buttons.forEach(function (button) {
+//   button.addEventListener('click', function () {
+//     if (button.id == 'img') {
+//       document.body.style.background = 'url(./img.jpg)';
+//     } else {
+//       const color = button.id;
+//       document.body.style.background = color;
+//     }
+//   });
+// });
 
-let redBtn = document.querySelector('.red-btn');
-document.body.style.backgroundColor = 'red';
+// Есть массив names, нужно отобразить каждый элемент массива в консоли-------------------------------------
+// const names = ['Arsen', 'Bogdan', 'Aliaksei', 'Botirjon'];
+// names.forEach(function (item) {
+//   console.log(item);
+// });
 
-let greenBtn = document.querySelector('.green-btn');
-document.body.style.backgroundColor = 'green';
+// forEach(item, index, arr) принимает три аргумента
+// 1. item - каждый элемент массива, текущий элемент; (array[i]) - каждый элемент массива в for
+// 2. index -  индекс текущего элемента
+// 3. arr - сам массив, над которым выполняем действия
+// */
 
-let blueBtn = document.querySelector('.blue-btn');
-document.body.style.backgroundColor = 'blue';
-
-let yellowBtn = document.querySelector('.yellow-btn');
-document.body.style.backgroundColor = 'yellow';
-
-let imgBtn = document.querySelector('.img-btn');
-document.body.style.backgroundImage = 'url(img.jpg)';
-document.body.style.backgroundSize = '100% 100%';
-
-let btn = document.querySelectorAll('.btn');
-btn.addEventListener('click', function () {
-  for (let i = 0; i < btn.length; i++) {
-    btn = document.body.style[i];
-  }
-});
+// Есть массив чисел numbers. FOREACH------------------------------------------------------------------------
+// вывести в консоли
+// а) вывести числа больше 60
+// б) квадрат каждого числа
+// const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// numbers.forEach(function (item) {
+//   if (item > 60) {
+//     console.log(item);
+//   }
+//   console.log(item ** 2);
+// });
